@@ -18,8 +18,7 @@ header .intro {
   max-width: 540px;
 }
 main {
-  /* width: 70%; */
-  /* margin: 0 auto; */
+  padding-bottom: 110px;
 }
 .container {
   width: 77%;
