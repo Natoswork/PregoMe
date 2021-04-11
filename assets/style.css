@@ -83,31 +83,13 @@ section {
 .content-space-around {
   justify-content: space-around;
 }
-.experience {
-  padding-right: 100px;
-  flex: 1;
-  color: #ffffff;
-  /* font-size: 1.15em;
-  line-height: 1.1em; */
+a {
+  text-decoration: underline;
+  color: #7c22b0;
+  transition: opacity .3s;
 }
-/* .experience p {
-font-size: 1.15em;
-line-height: 1.1em;
-} */
-.experience .flex {
-  margin-bottom: 30px;
-}
-.experience {
-  position: relative;
-}
-.relative h2 {
-  position: absolute;
-  left: 20px;
-  transform: rotate(-90deg);
-  color: #99999;
-  text-transform: uppercase;
-  transform-origin: top left;
-  top: 90px;
+a:hover {
+  opacity: 0.6;
 }
 li.active a {
   text-decoration: underline;
