@@ -33,6 +33,12 @@ h1 {
 h2, h3 {
   font-size: 2.6em;
 }
+.title-large {
+  font-size: 2.6em;
+}
+.numbering {
+  margin-right: 16px;
+}
 .about-summery {
   width: 300px;
   flex: 0 0 300px;
@@ -103,34 +109,10 @@ line-height: 1.1em;
   transform-origin: top left;
   top: 90px;
 }
-
-.experience strong,
-.skills strong {
-  margin-bottom: 10px;
-  display: block;
-}
-.skills {
-  width: 200px;
-}
-.skills li {
-  line-height: 24px;
-}
-.skills > div {
-  margin-bottom: 30px;
-}
 li.active a {
   text-decoration: underline;
 }
-main.contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: calc(100vh - 200px);
-  text-align: center;
-  line-height: 26px;
-  flex-direction: column;
-  min-height: 400px;
-}
+
 span.mail {
   display: block;
   font-size: 2em;
